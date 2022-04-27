@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HomePageReact/static/css/main.6ec6b44e.css",
+    "main.js": "/HomePageReact/static/js/main.f3e16be2.js",
+    "index.html": "/HomePageReact/index.html",
+    "main.6ec6b44e.css.map": "/HomePageReact/static/css/main.6ec6b44e.css.map",
+    "main.f3e16be2.js.map": "/HomePageReact/static/js/main.f3e16be2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ec6b44e.css",
+    "static/js/main.f3e16be2.js"
+  ]
+}
