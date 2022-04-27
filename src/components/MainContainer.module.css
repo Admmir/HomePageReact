@@ -1,0 +1,59 @@
+.containerFirstClass {
+  
+  background-color: #ffffff;
+}
+
+.NavLine {
+  border-color: #f4f4f4;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.containerClass {
+  display: flex;
+  padding-bottom: 7rem;
+}
+.dropDownMenuBorder {
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-left: 6px solid #393939;
+}
+
+.dropdownSelector {
+  text-decoration: none;
+  color: black;
+}
+
+.containerClass ul {
+  list-style: none;
+}
+
+.containerClass li {
+  padding: 5px 0 5px 0;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  grid-auto-rows: minmax(9rem, auto);
+}
+
+@media screen and (max-width: 770px) {
+  .containerClass {
+    display: block;
+  }
+  .cardContainer {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .containerClass {
+    display: block;
+  }
+}

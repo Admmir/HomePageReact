@@ -1,0 +1,111 @@
+.footer {
+  width: 100%;
+  height: fit-content;
+  background: linear-gradient(
+    130deg,
+    #252523 5% 10%,
+    #1d1d1b 10% 35%,
+    #252523 10% 60%
+  );
+}
+
+.footerContainer {
+  display: block;
+  width: 60%;
+  margin: auto;
+  height: fit-content;
+}
+
+.inputDiv {
+    display: grid;
+  background-color: #3d3d3d;
+  height: 6rem;
+  width: 100%;
+}
+
+.formControl {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1rem;
+  padding: 0.5rem;
+}
+
+label {
+  color: #6f6f6f;
+  margin-top: 0.5rem;
+}
+.buttonHolder {
+  grid-column-start: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin: auto;
+}
+
+.buttonHolder > button {
+  background-color: #f7c608;
+  border: none;
+  height: 2rem;
+  width: 7rem;
+  border-radius: 1rem;
+}
+
+input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: solid #212121;
+  background-color: #3d3d3d;
+  outline: none !important;
+  box-shadow: none;
+  width: 100%;
+}
+input:focus {
+  border-bottom: solid #000000;
+  outline: none;
+}
+
+.containerLinks{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 5fr;
+    height: fit-content;
+    margin-top: 2rem;
+    border-top: solid #3d3d3d;
+    padding-top: 1rem;
+    line-height: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .footerContainer {
+        display: grid;
+        width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+      }
+      .inputDiv {
+        background-color: #3d3d3d;
+        height: 12rem;
+        width: 100%;
+        grid-template-columns: 1fr;
+      }
+    .formControl {
+        grid-template-columns: 1fr 1fr;
+      }
+      .buttonHolder {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        margin: auto;
+      }
+      .containerLinks{
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        height: fit-content;
+        margin-top: 2rem;
+        border-top: solid #3d3d3d;
+        padding-top: 1rem;
+        line-height: 2rem;
+    }
+    .footer{
+        height: fit-content;
+    }
+  }
